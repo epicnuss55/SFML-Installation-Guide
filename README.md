@@ -12,10 +12,10 @@ git clone https://github.com/epicnuss55/SFML-Installation-Guide.git
 Enter `SFML Template` folder and navigate to the `mingw64` folder, move it into your C drive (or a different place you know that you're not going to move it), then enter the `mingw64` folder and navigate to `mingw64 >> bin` and copy the path. Proceed to press the windows key search up and open your `system environment`.
 ### Step 3:
 On the newly opened `System Properties` window, press `Environment Variables`, then, in the new window, under `System variables`, find the `Path` variable and press `Edit`. Finally press the `New` button in the new Window and paste the path to the `mingw64/bin` folder you had. `OK` your way out of the `system environment`.
-!()[https://raw.githubusercontent.com/epicnuss55/SFML-Installation-Guide/SFML-Guide-2.5.1/img/SystemEnv.png?token=ASJAW7FGJAN2FHQLZ3NXKSDAT55YQ]
-!()[https://raw.githubusercontent.com/epicnuss55/SFML-Installation-Guide/SFML-Guide-2.5.1/img/SystemProperties.png?token=ASJAW7DIXEYOXGFXUNFWQ4TAT55YY]
-!()[https://raw.githubusercontent.com/epicnuss55/SFML-Installation-Guide/SFML-Guide-2.5.1/img/EnvVars.png?token=ASJAW7CKZDPBCVLQCDEEJBDAT55YE]
-!()[https://raw.githubusercontent.com/epicnuss55/SFML-Installation-Guide/SFML-Guide-2.5.1/img/EditEnvVars.png?token=ASJAW7AUSASZXXC45OIWPXTAT55X2]
+!(SystemEnv)[https://raw.githubusercontent.com/epicnuss55/SFML-Installation-Guide/SFML-Guide-2.5.1/img/SystemEnv.png?token=ASJAW7FGJAN2FHQLZ3NXKSDAT55YQ]
+!(SystemProperties)[https://raw.githubusercontent.com/epicnuss55/SFML-Installation-Guide/SFML-Guide-2.5.1/img/SystemProperties.png?token=ASJAW7DIXEYOXGFXUNFWQ4TAT55YY]
+!(EnvVars)[https://raw.githubusercontent.com/epicnuss55/SFML-Installation-Guide/SFML-Guide-2.5.1/img/EnvVars.png?token=ASJAW7CKZDPBCVLQCDEEJBDAT55YE]
+!(EditEnvVars)[https://raw.githubusercontent.com/epicnuss55/SFML-Installation-Guide/SFML-Guide-2.5.1/img/EditEnvVars.png?token=ASJAW7AUSASZXXC45OIWPXTAT55X2]
 ### Step 4:
 Open `SFML_Template` (*optional*: and rename the folder) and open the folder as a project in Visual Studio Code or any other preferred text editor, open the `main.cpp` file, compile and run the template code to make sure everything is working correctly (see compiling instructions below).
 ## Compiling Instructions
